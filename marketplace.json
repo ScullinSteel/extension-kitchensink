@@ -22,16 +22,16 @@
     "locale": {
       "label": "User Locale"
     },
-    "marketplace_scullinsteel_kitchensink_kitchensink_foo": {
+    "extension::foo": {
       "label": "Kitchen Sink Foo Value",
       "type": "string"
     },
-    "marketplace_scullinsteel_kitchensink_kitchensink_bar": {
+    "extension::bar": {
       "label": "Kitchen Sink Bar Value",
       "type": "yesno",
       "default_value": "yes"
     },
-    "marketplace_scullinsteel_kitchensink_kitchensink_secret": {
+    "extension::secret": {
       "label": "Kitchen Sink Secret Value",
       "type": "string",
       "default_value": "",
