@@ -13,8 +13,10 @@ application: kitchensink {
     navigation: yes
     new_window: yes
     core_api_methods: ["all_connections", "search_folders"]
-    user_attributes: [
-      "locale",
+    global_user_attributes: [
+      "locale"
+    ],
+    scoped_user_attributes: [
       "foo",
       "bar",
       "secret"
