@@ -15,7 +15,7 @@ application: kitchensink {
     core_api_methods: ["all_connections", "search_folders"]
     global_user_attributes: [
       "locale"
-    ],
+    ]
     scoped_user_attributes: [
       "foo",
       "bar",
