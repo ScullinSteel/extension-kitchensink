@@ -20,18 +20,19 @@
   },
   "user_attributes": {
     "locale": {
-      "label": "User Locale"
+      "label": "User Locale",
+      "global": true
     },
-    "extension::foo": {
+    "foo": {
       "label": "Kitchen Sink Foo Value",
       "type": "string"
     },
-    "extension::bar": {
+    "bar": {
       "label": "Kitchen Sink Bar Value",
       "type": "yesno",
       "default_value": "yes"
     },
-    "extension::secret": {
+    "secret": {
       "label": "Kitchen Sink Secret Value",
       "type": "string",
       "default_value": "",

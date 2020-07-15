@@ -15,9 +15,9 @@ application: kitchensink {
     core_api_methods: ["all_connections", "search_folders"]
     user_attributes: [
       "locale",
-      "extension::foo",
-      "extension::bar",
-      "extension::secret"
+      "foo",
+      "bar",
+      "secret"
     ]
   }
 }
